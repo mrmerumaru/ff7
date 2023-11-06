@@ -4,6 +4,11 @@ h1 {
     position: relative;
     top: 130px;
 }
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     margin: 0;
     z-index: 0;
