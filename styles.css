@@ -1,3 +1,20 @@
+h2 p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 10px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  font-size: 18px;
+}
+h3 p {
+  color: #21292e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 10px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+}
 p {
   text-align: justify;
   text-justify: inter-word;
@@ -7,6 +24,10 @@ body {
   margin: 0;
   z-index: 0;
   background-color: black;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 .banner {
   width: 100%;
@@ -40,6 +61,7 @@ ul {
 }
 li {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
   float: left;
 }
 li a, .dropbtn {
@@ -83,5 +105,27 @@ li.dropdown {
 }
 .breadcrumb li+li::before {
   color: white;
-  content: " /";
+  content: " >";
+}
+.breadcrumb li a {
+  text-decoration: underline;
+}
+.container {
+  background-color: black;
+  border-style: solid;
+  border-color: white;
+  margin: 0 50px;
+  justify-content: center;
+}
+.imgbox {
+  background-color: whitesmoke;
+  height: 150px;
+  width: 150px;
+  border: 1px solid lightgrey;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+#flex {
+  display: flex;
+  flex-wrap: wrap;
 }
