@@ -45,6 +45,7 @@ img {
   color: white;
   filter: brightness(200%);
   letter-spacing: 10px;
+  white-space: nowrap;
 }
 .summary {
   color: white;
